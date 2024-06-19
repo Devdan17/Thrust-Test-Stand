@@ -12,3 +12,19 @@ Welcome to the Thrust Test Stand repository! This project is dedicated to the pr
 - **Graph Plotting:** Visualize your data with ease. The software allows you to plot insightful graphs for Thrust vs. Throttle and RPM vs. Throttle, providing a clear understanding of your device's performance characteristics.
 
 - **Data Storage:** Save your collected data and graphs for future reference. The software supports data storage, ensuring you can revisit and analyze your test results at any time.
+
+## Software Requirements
+
+- **Arduino IDE:** Since we using arduino as our microcontroller to give commands to the components , the arduino code must be written in the IDE and then upload it.
+
+- **Visual Studio Code:** This is the basic platform , where our entire GUI python code is run on.
+
+## Libraries used
+
+- **HX711_ADC.h:** This is a library used in the arduino code which contains the HX711 amplifier module calibration code which allows us to find the Thrust of the motor using the help of a Load Cell.
+
+- **EEPROM.h:** This is another library used in the arduino code that allows us to read and write data to/from the EEPROM, which is present in the arduino , the main purpose od this is to read the value of Thrust of any given motor.
+
+- **Servo.h:** This library allows us to access all the code and calibration related to servo motors , the purpose of this in our project is to to create a servo object to control our ESC.
+
+  
