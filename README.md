@@ -12,3 +12,17 @@ Welcome to the Thrust Test Stand repository! This project is dedicated to the pr
 - **Graph Plotting:** Visualize your data with ease. The software allows you to plot insightful graphs for Thrust vs. Throttle and RPM vs. Throttle, providing a clear understanding of your device's performance characteristics.
 
 - **Data Storage:** Save your collected data and graphs for future reference. The software supports data storage, ensuring you can revisit and analyze your test results at any time.
+
+ ## Coding platforms used
+
+- **Arduino IDE:** This is used to write down the code/instructions for the arduino to follow.
+
+- **VS Code:** This platform is used for typing and executing the python code for The GUI of the project.
+
+## Libraries used
+
+-**HX711_ADC.h** This package helps in converting the analog value output of load cell into digital value and sending the input to the arduino.
+
+-**Servo.h** This package helps in controlling the BLDC motor.
+
+-**EEPROM.h** This package helps in storing and retrieving data sent and received frrom Load cell and its stored in arduino.
