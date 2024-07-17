@@ -1,6 +1,8 @@
 from tkinter import * 
 # from tkinter.filedialog import filedialog , asksaveasfile 
 import random , csv , os , sys , pandas as pd , serial.tools.list_ports
+from tkinter import filedialog
+from tkinter.filedialog import asksaveasfile
 from itertools import count
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
@@ -36,8 +38,8 @@ y_val1 = []
 x_val2 = []
 y_val2 = []
 index = count()
-onfil=resource_path("on.png")
-off_file=resource_path("off.png")
+onfil=resource_path("assests/on.png")
+off_file=resource_path("assests/off.png")
 on = PhotoImage(file=onfil)
 off = PhotoImage(file=off_file)
 plt.style.use("dark_background")
