@@ -38,8 +38,8 @@ y_val1 = []
 x_val2 = []
 y_val2 = []
 index = count()
-onfil=resource_path("assests/on.png")
-off_file=resource_path("assests/off.png")
+onfil=resource_path("assests/onn.png")
+off_file=resource_path("assests/offf.png")
 on = PhotoImage(file=onfil)
 off = PhotoImage(file=off_file)
 plt.style.use("dark_background")
